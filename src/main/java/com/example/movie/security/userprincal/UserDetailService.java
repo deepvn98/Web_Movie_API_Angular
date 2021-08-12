@@ -1,7 +1,7 @@
-package com.example.movie.security;
+package com.example.movie.security.userprincal;
 
 import com.example.movie.model.UserApp;
-import com.example.movie.reporitory.IUserRepository;
+import com.example.movie.repository.IUserRepository;
 import com.example.movie.service.iplm.UserAppService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.context.SecurityContextHolder;

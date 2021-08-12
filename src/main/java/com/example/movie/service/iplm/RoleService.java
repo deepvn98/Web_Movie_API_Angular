@@ -2,7 +2,7 @@ package com.example.movie.service.iplm;
 
 import com.example.movie.model.NameRole;
 import com.example.movie.model.Role;
-import com.example.movie.reporitory.IRoleRepository;
+import com.example.movie.repository.IRoleRepository;
 import com.example.movie.service.IRoleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

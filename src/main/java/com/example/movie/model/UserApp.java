@@ -46,10 +46,10 @@ public class UserApp {
             joinColumns = @JoinColumn(name = "user_id"),inverseJoinColumns = @JoinColumn(name = "role_id"))
     Set<Role> roles = new HashSet<>();
 
-    public UserApp() {
+    public UserApp(String name, String username, String email, String encode) {
     }
 
-    public UserApp(Long id, @NotBlank @Size(min = 3, max = 50) String name, @NotBlank @Size(min = 3, max = 50) String username, @NotBlank @Size(max = 50) @Email String email, @NotBlank @Size(min = 6, max = 100) String password, String avatar, Set<Role> roles) {
+    public UserApp() {
         this.id = id;
         this.name = name;
         this.username = username;

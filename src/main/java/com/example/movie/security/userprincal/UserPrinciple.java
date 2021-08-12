@@ -1,4 +1,4 @@
-package com.example.movie.security;
+package com.example.movie.security.userprincal;
 
 import com.example.movie.model.UserApp;
 import com.fasterxml.jackson.annotation.JsonIgnore;

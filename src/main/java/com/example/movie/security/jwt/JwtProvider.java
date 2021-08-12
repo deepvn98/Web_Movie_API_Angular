@@ -1,6 +1,6 @@
 package com.example.movie.security.jwt;
 
-import com.example.movie.security.UserPrinciple;
+import com.example.movie.security.userprincal.UserPrinciple;
 import io.jsonwebtoken.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

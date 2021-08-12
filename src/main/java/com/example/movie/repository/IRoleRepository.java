@@ -1,4 +1,4 @@
-package com.example.movie.reporitory;
+package com.example.movie.repository;
 
 import com.example.movie.model.NameRole;
 import com.example.movie.model.Role;
